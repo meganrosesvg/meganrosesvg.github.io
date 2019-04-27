@@ -1,42 +1,79 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio | Megan Rose</title>
+    <title>MEGAN ROSE | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <!--link rel="stylesheet" href="styles/main.css" --> <!-- editing out for now -->
   </head>
   <body>
+    <div id="navcontainer">
+      <ul id="navlist">
+        <li id="active"><a href="#" id="current">ABOUT</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+    <section class="logo">
+      <img src="images/logo.png" alt="personal logo" width="270" height="265.32">
+    </section>
     <header>
-      <h1>Megan Rose</h1>
-      <p class ="slogan">UX | UI Designer, creating fun and intuitive stuff for human beings to use.</p>
+      <h1>MEGAN ROSE DESIGN</h1>
+      <p class="slogan">UX | UI Designer in Madison, WI creating fun<br>and intuitive things for human beings to use.</p>
     </header>
-    <main>
-      <div class="project featured-project">
-        <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
-         <h2>Featured Project Name</h2>
-         <p>Project description text</p>
-       </div>
-       <div class="project">
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
-         <h2>Project Name</h2>
-         <p>Project description text</p>
-       </div>
-       <div class="project">
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
-         <h2>Project Name</h2>
-         <p>Project description text</p>
-       </div>
-       <div class="project">
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
-         <h2>Project Name</h2>
-         <p>Project description text</p>
-       </div>
-     </main>
-     <footer>
-       <ul>
-         <li> <a href="https://www.linkedin.com/in/meganbergner613/">LinkedIn</a> </li>
-         <li> <a href="https://github.com/meganrosesvg">GitHub</a> </li>
-         <li> <a href="https://www.instagram.com/uxmeg">Instagram</a> </li>
-         <li> <a href="mailto:meg.seaholm@gmail.com">Email</a> </li>
-        </ul>
-      </footer>
-   </body>
- </html>
+      <div class="mockup">
+        <img src="images/communitymockup.png" alt="project screenshot" width="589.59" height="350"/>
+      </div>
+        <div class="project">
+          <h2>PHOTOSPHERE</h2>
+          <h3>A CLOUD STORAGE SERVICE SPECIALLY<br>DESIGNED JUST FOR PHOTOGRAPHS.</h3>
+          <p class="description">Tasked as the sole UX and UI Designer on this project, I was excited to perform thorough user research, and have the opportunity to build a project from the ground up. I learned a lot as a designer, namely that “test early and often” is not cliche advice, but best practice!</p>
+          <button type="button">VIEW CASE STUDY</button>
+        </div>
+       <div class="mockup">
+          <img src="images/blocjams_iphone.png" alt="project screenshot" width="250" height="511.01"/>
+            </div>
+            <div class="project">
+              <h2>BLOC JAMS</h2>
+              <h3>MUSIC PLAYER DESIGNED WITH JS AND JQUERY.</h3>
+              <p class="description">Explored JavaScript functions deeply in the creation of BlocJams, a beautiful and functional music player application. Learned a lot about jQuery as a JS library, and was able to help build  sliders, a pause/play feature, and volume control.</p>
+            </div>
+          <section class="closing">
+            <h2>INTERESTED IN WORKING TOGETHER?</h2>
+            <h3>Send me an <a href="mailto:meg.teacher@gmail.com">email.</a></h3>
+          </section>
+        <footer>
+            <li>
+              <a href="https://www.linkedin.com/in/meganbergner613/">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/meganrosesvg">
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <!-- note: dribbble icon not showing, not sure why!!! -->
+              <a href="https://dribbble.com/meganrosesvg">
+                <i class="fab fa-dribbble-square" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/uxmeg">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:meg.seaholm@gmail.com">
+               <i class="fa fa-envelope-square" aria-hidden="true"></i>
+            </a>
+          </li>
+          </ul>
+        </footer>
+      </body>
+    </html>
